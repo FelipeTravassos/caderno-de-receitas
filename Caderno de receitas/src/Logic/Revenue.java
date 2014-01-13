@@ -7,6 +7,22 @@ public class Revenue {
 	String ingredients = "";
 	String recipe = "";
 	
+	public String getName() {
+		return name;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public String getIngredients() {
+		return ingredients;
+	}
+
+	public String getRecipe() {
+		return recipe;
+	}
+
 	public void setName(String name) throws Exception{
 		if(!name.equals(""))
 			this.name = name;
